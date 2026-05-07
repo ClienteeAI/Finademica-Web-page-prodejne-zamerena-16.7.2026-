@@ -66,17 +66,8 @@ export default function Navbar() {
             <NavLink href="#education">{t('nav.lessons')}</NavLink>
             <NavLink href="#tools">{t('nav.tools')}</NavLink>
             <NavLink href="#arena">{t('nav.arena')}</NavLink>
-            <div className="relative group">
-              <button className="flex items-center gap-1 transition-colors hover:text-accent">
-                {t('nav.blog')} <ChevronDown size={10} className="group-hover:rotate-180 transition-transform" />
-              </button>
-              <div className="absolute top-full left-0 pt-4 hidden group-hover:block">
-                <div className="bg-surface border border-border shadow-2xl min-w-[200px] p-2 flex flex-col gap-1">
-                  <NavLink href="/blog">{t('nav.blog')}</NavLink>
-                  <NavLink href="/dictionary">{t('nav.dictionary')}</NavLink>
-                </div>
-              </div>
-            </div>
+            <NavLink href="/blog">{t('nav.blog')}</NavLink>
+            <NavLink href="/dictionary">{t('nav.dictionary')}</NavLink>
             <NavLink href="/career">{t('career.nav')}</NavLink>
             <NavLink href="#pricing" isAccent>{t('nav.partners')}</NavLink>
             

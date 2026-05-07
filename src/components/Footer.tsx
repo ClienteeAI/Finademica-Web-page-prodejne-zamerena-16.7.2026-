@@ -42,6 +42,14 @@ export default function Footer() {
                 </div> */}
 
                 <div>
+                    <h4 className="font-sans font-bold uppercase tracking-[0.3em] text-[9px] mb-10 text-white/40">{t('nav.blog')}</h4>
+                    <ul className="space-y-4 text-text-dim text-[11px] uppercase tracking-widest font-light">
+                        <li><a href="/blog" className="hover:text-accent transition-colors">{t('nav.blog')}</a></li>
+                        <li><a href="/dictionary" className="hover:text-accent transition-colors">{t('nav.dictionary')}</a></li>
+                    </ul>
+                </div>
+
+                <div>
                     <h4 className="font-sans font-bold uppercase tracking-[0.3em] text-[9px] mb-10 text-white/40">{t('footer.work')}</h4>
                     <ul className="space-y-4 text-text-dim text-[11px] uppercase tracking-widest font-light">
                         <li><a href="/career" className="hover:text-accent transition-colors">{t('career.nav')}</a></li>
