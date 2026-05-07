@@ -18,7 +18,12 @@ export default function BlogPost() {
   // Pro-linking: Process content to add automatic links
   const processedContent = useMemo(() => {
     if (!post) return '';
-    return linkifyContent(post.content[currentLang], dictionaryData, currentLang);
+    try {
+      return linkifyContent(post.content[currentLang], dictionaryData, currentLang);
+    } catch (error) {
+      console.error('Linkify error:', error);
+      return post.content[currentLang];
+    }
   }, [post, currentLang]);
 
   useEffect(() => {

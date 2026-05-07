@@ -27,16 +27,16 @@ export function linkifyContent(content: string, dictionary: DictionaryTerm[], cu
     
     // Special handling for liquidity declensions in Czech
     if (term.slug === 'liquidity' && currentLang === 'cs') {
-      const pattern = `\\b(likvidit[a-z]{0,2})\\b`;
+      const pattern = `(?:\\b[Ll]ikvidit[a-z]{0,2}\\b)`;
       patterns.push(pattern);
-      termMap.set('likvidita_pattern', term); // Use a marker for the regex group if needed, but here we'll handle it in the replacer
     } else {
-      patterns.push(`\\b${escapedTitle}\\b`);
+      patterns.push(`(?:\\b${escapedTitle}\\b)`);
     }
     
     termMap.set(title.toLowerCase(), term);
   });
 
+  if (patterns.length === 0) return content;
   const masterRegex = new RegExp(patterns.join('|'), 'gi');
 
   // 3. Split by HTML tags and process only text nodes
