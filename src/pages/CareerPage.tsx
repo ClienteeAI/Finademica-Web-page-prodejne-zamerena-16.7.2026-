@@ -126,12 +126,25 @@ export default function Career() {
         {/* Section 2: Why Finademica? */}
         <div className="mb-24 lg:mb-48">
           <motion.h3 
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
+            initial="hidden"
+            whileInView="visible"
             viewport={{ once: true }}
-            className="text-[10px] uppercase tracking-[0.3em] text-white/30 mb-12 lg:mb-20 text-center"
+            variants={{
+              visible: { transition: { staggerChildren: 0.05 } }
+            }}
+            className="text-4xl md:text-5xl lg:text-7xl font-serif font-light mb-16 lg:mb-24 text-center tracking-tight text-white"
           >
-            {t('career.why.title')}
+            {(t('career.why.title') as string).split('').map((char, index) => (
+              <motion.span
+                key={index}
+                variants={{
+                  hidden: { opacity: 0, filter: 'blur(4px)' },
+                  visible: { opacity: 1, filter: 'blur(0px)' }
+                }}
+              >
+                {char}
+              </motion.span>
+            ))}
           </motion.h3>
           
           <div className="grid md:grid-cols-3 gap-12">
