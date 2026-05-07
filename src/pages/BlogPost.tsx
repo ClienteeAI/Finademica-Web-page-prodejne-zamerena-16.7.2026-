@@ -162,7 +162,7 @@ export default function BlogPost() {
                     prose-p:text-lg prose-p:font-light prose-p:leading-relaxed prose-p:text-text-dim
                     prose-strong:text-white prose-strong:font-bold
                     prose-ul:list-disc prose-ul:pl-6 prose-li:text-text-dim prose-li:mb-2"
-                  dangerouslySetInnerHTML={{ __html: processedContent }} 
+                  dangerouslySetInnerHTML={{ __html: post.content[currentLang] }} 
                 />
 
                 {/* Related Dictionary Terms */}
