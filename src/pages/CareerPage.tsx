@@ -9,6 +9,12 @@ const careerVideos = [
   "/Video_web_3.mp4"
 ];
 
+const roadmapImages = [
+  "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&q=80&w=1200",
+  "https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&q=80&w=1200",
+  "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&q=80&w=1200"
+];
+
 const WEBHOOK_URL = "https://services.leadconnectorhq.com/hooks/INxLO0R2O5UzkQsOeiNw/webhook-trigger/eba136f1-c7dc-409d-b538-c30eae05a02c";
 
 export default function Career() {
@@ -136,8 +142,9 @@ export default function Career() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: idx * 0.2 }}
-                className="bg-white/[0.02] backdrop-blur-md border border-white/5 p-12 rounded-sm hover:border-accent/40 transition-all group"
+                className="bg-gradient-to-b from-white/[0.05] to-transparent backdrop-blur-md border border-white/10 p-12 rounded-sm hover:border-accent/50 hover:shadow-[0_0_30px_rgba(99,102,241,0.15)] hover:-translate-y-2 transition-all duration-500 group relative overflow-hidden"
               >
+                <div className="absolute top-0 right-0 w-32 h-32 bg-accent/10 blur-[50px] group-hover:bg-accent/20 transition-colors duration-500" />
                 <div className="text-accent mb-10 group-hover:scale-110 transition-transform duration-500">
                   {icons[idx]}
                 </div>
@@ -218,24 +225,41 @@ export default function Career() {
             {t('career.roadmap.title')}
           </motion.h3>
 
-          <div className="grid md:grid-cols-3 gap-px bg-white/5 border border-white/5 rounded-sm overflow-hidden">
+          <div className="grid md:grid-cols-3 gap-6">
             {roadmapSteps.map((step, idx) => (
               <motion.div
                 key={idx}
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                transition={{ delay: idx * 0.2 }}
-                className="bg-bg p-16 hover:bg-white/[0.02] transition-colors group relative"
+                transition={{ duration: 0.8, delay: idx * 0.15, ease: [0.21, 0.47, 0.32, 0.98] }}
+                className="group relative h-[450px] overflow-hidden rounded-sm border border-white/10 hover:border-accent/50 transition-all duration-700"
               >
-                <div className="absolute top-0 left-0 w-full h-[2px] bg-accent transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-500" />
-                <span className="text-accent text-4xl font-serif mb-10 block opacity-40 group-hover:opacity-100 transition-opacity">
-                  {step.time}
-                </span>
-                <h4 className="text-2xl font-serif mb-6">{step.title}</h4>
-                <p className="text-text-dim text-base font-sans font-light leading-relaxed">
-                  {step.desc}
-                </p>
+                {/* Background Image */}
+                <div className="absolute inset-0 z-0">
+                  <img 
+                    src={roadmapImages[idx]} 
+                    alt={step.title}
+                    className="w-full h-full object-cover grayscale brightness-50 group-hover:grayscale-[50%] group-hover:scale-110 group-hover:brightness-75 transition-all duration-1000 ease-out"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-bg via-bg/60 to-transparent opacity-90 group-hover:opacity-80 transition-opacity" />
+                </div>
+
+                {/* Content */}
+                <div className="absolute inset-0 z-10 p-10 flex flex-col justify-end">
+                  <div className="transform translate-y-4 group-hover:translate-y-0 transition-transform duration-700">
+                    <span className="text-accent text-5xl font-serif mb-6 block opacity-60 group-hover:opacity-100 transition-opacity">
+                      {step.time}
+                    </span>
+                    <h4 className="text-2xl font-serif text-white mb-4 leading-tight">{step.title}</h4>
+                    <p className="text-white/70 text-sm font-sans font-light leading-relaxed">
+                      {step.desc}
+                    </p>
+                  </div>
+                </div>
+                
+                {/* Ambient Glow */}
+                <div className="absolute -bottom-20 -left-20 w-40 h-40 bg-accent/20 blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-1000" />
               </motion.div>
             ))}
           </div>
