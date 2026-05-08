@@ -109,18 +109,160 @@ export default function Footer() {
       )
     },
     privacy: {
-      title: "PRIVACY POLICY",
+      title: "PRIVACY POLICY (GDPR)",
       content: (
-        <div className="space-y-4 text-sm text-text-dim font-sans font-light">
-          <p>Awaiting privacy policy content...</p>
+        <div className="space-y-4 text-sm text-text-dim font-sans font-light leading-relaxed">
+          <p className="font-bold text-white text-base">Ben Consult s.r.o.</p>
+          <p>Příčná 1892/4, Praha 1<br/>IČO: 14292475</p>
+
+          <h3 className="text-white font-bold mt-6 uppercase tracking-wider text-xs">2. What Data We Collect</h3>
+          <p>We may collect:</p>
+          <ul className="list-disc pl-5 space-y-1">
+            <li>Name and surname</li>
+            <li>Email address</li>
+            <li>Phone number</li>
+            <li>IP address</li>
+            <li>Website usage data</li>
+          </ul>
+
+          <h3 className="text-white font-bold mt-6 uppercase tracking-wider text-xs">3. Purpose of Processing</h3>
+          <p>We process data to:</p>
+          <ul className="list-disc pl-5 space-y-1">
+            <li>Provide services</li>
+            <li>Send emails / communication</li>
+            <li>Improve website performance</li>
+            <li>Marketing (with consent)</li>
+          </ul>
+
+          <h3 className="text-white font-bold mt-6 uppercase tracking-wider text-xs">4. Legal Basis</h3>
+          <ul className="list-disc pl-5 space-y-1">
+            <li>Consent (marketing)</li>
+            <li>Contract performance (services)</li>
+            <li>Legitimate interest (analytics)</li>
+          </ul>
+
+          <h3 className="text-white font-bold mt-6 uppercase tracking-wider text-xs">5. Data Retention</h3>
+          <p>We store personal data only as long as necessary.</p>
+
+          <h3 className="text-white font-bold mt-6 uppercase tracking-wider text-xs">6. Third Parties</h3>
+          <p>We may share data with:</p>
+          <ul className="list-disc pl-5 space-y-1">
+            <li>CRM systems (Clientee CRM)</li>
+            <li>Email providers</li>
+            <li>Analytics tools</li>
+          </ul>
+          <p>All comply with GDPR.</p>
+
+          <h3 className="text-white font-bold mt-6 uppercase tracking-wider text-xs">7. Your Rights</h3>
+          <p>Under GDPR you have the right to:</p>
+          <ul className="list-disc pl-5 space-y-1">
+            <li>Access your data</li>
+            <li>Request correction</li>
+            <li>Request deletion</li>
+            <li>Withdraw consent</li>
+            <li>File complaint with authority</li>
+          </ul>
+
+          <h3 className="text-white font-bold mt-6 uppercase tracking-wider text-xs">8. Data Security</h3>
+          <p>We use technical and organizational measures to protect your data.</p>
+
+          <h3 className="text-white font-bold mt-6 uppercase tracking-wider text-xs">9. Contact</h3>
+          <p>Email: <a href="mailto:hey@finademica.com" className="text-accent hover:underline">hey@finademica.com</a></p>
         </div>
       )
     },
     cookies: {
       title: "COOKIES POLICY",
       content: (
-        <div className="space-y-4 text-sm text-text-dim font-sans font-light">
-          <p>Awaiting cookies policy content...</p>
+        <div className="space-y-4 text-sm text-text-dim font-sans font-light leading-relaxed">
+          <motion.div 
+            initial={{ rotate: -180, scale: 0 }}
+            animate={{ rotate: 0, scale: 1 }}
+            transition={{ type: "spring", stiffness: 200, damping: 15 }}
+            className="w-16 h-16 bg-accent/10 border border-accent/20 rounded-full flex items-center justify-center mb-8 mx-auto shadow-[0_0_30px_rgba(99,102,241,0.2)]"
+          >
+            <span className="text-3xl filter drop-shadow-lg">🍪</span>
+          </motion.div>
+          
+          <h3 className="text-white font-bold mt-6 uppercase tracking-wider text-xs">1. What Are Cookies</h3>
+          <p>Cookies are small text files stored in your browser.</p>
+
+          <h3 className="text-white font-bold mt-6 uppercase tracking-wider text-xs">2. Types of Cookies We Use</h3>
+          <ul className="list-disc pl-5 space-y-1">
+            <li><span className="font-bold text-white">Necessary cookies</span> – required for website functionality</li>
+            <li><span className="font-bold text-white">Analytics cookies</span> – to understand user behavior</li>
+            <li><span className="font-bold text-white">Marketing cookies</span> – for ads and remarketing</li>
+          </ul>
+
+          <h3 className="text-white font-bold mt-6 uppercase tracking-wider text-xs">3. Consent</h3>
+          <p>When visiting the website, you can:</p>
+          <ul className="list-disc pl-5 space-y-1">
+            <li>Accept all cookies</li>
+            <li>Reject non-essential cookies</li>
+          </ul>
+
+          <h3 className="text-white font-bold mt-6 uppercase tracking-wider text-xs">4. Third-Party Cookies</h3>
+          <p>We may use:</p>
+          <ul className="list-disc pl-5 space-y-1">
+            <li>Google Analytics</li>
+            <li>Facebook Pixel</li>
+          </ul>
+
+          <h3 className="text-white font-bold mt-6 uppercase tracking-wider text-xs">5. Managing Cookies</h3>
+          <p>You can disable cookies in your browser settings.</p>
+
+          <h3 className="text-white font-bold mt-6 uppercase tracking-wider text-xs">6. Contact</h3>
+          <p>Email: <a href="mailto:hey@finademica.com" className="text-accent hover:underline">hey@finademica.com</a></p>
+        </div>
+      )
+    },
+    disclaimer: {
+      title: "FULL DISCLAIMER",
+      content: (
+        <div className="space-y-4 text-sm text-text-dim font-sans font-light leading-relaxed">
+          <p>The information provided by Ben Consult s.r.o., with its registered office at Příčná 1892/4, Nové Město, 110 00 Praha 1, Company ID: 14292475 (hereinafter “Company”), is for educational and informational purposes only.</p>
+          
+          <h3 className="text-white font-bold mt-6 uppercase tracking-wider text-xs">No Advisory Services</h3>
+          <p>The Company does not provide:</p>
+          <ul className="list-disc pl-5 space-y-1">
+            <li>investment advice</li>
+            <li>financial advisory services</li>
+            <li>portfolio management</li>
+            <li>brokerage services</li>
+          </ul>
+
+          <div className="bg-accent/10 border border-accent/20 p-4 rounded-sm my-6">
+            <p className="text-white/80">Nothing on this website, in emails, AI tools, videos, or communication should be considered as a recommendation to buy or sell any financial instrument, a personalized investment strategy, or financial, legal, or tax advice.</p>
+          </div>
+
+          <h3 className="text-white font-bold mt-6 uppercase tracking-wider text-xs">No Guarantee of Results</h3>
+          <p>The Company makes no guarantees regarding profitability, trading performance, or financial outcomes. Any examples, case studies, or results presented are illustrative only, not typical, and not guaranteed.</p>
+
+          <h3 className="text-white font-bold mt-6 uppercase tracking-wider text-xs">User Responsibility</h3>
+          <p>You acknowledge that:</p>
+          <ul className="list-disc pl-5 space-y-1">
+            <li>You are fully responsible for your trading decisions</li>
+            <li>You understand the risks associated with financial markets</li>
+            <li>You act at your own discretion</li>
+          </ul>
+
+          <h3 className="text-white font-bold mt-6 uppercase tracking-wider text-xs text-red-400">High-Risk Warning</h3>
+          <p>Trading involves a high level of risk, especially when using leverage. You may lose your entire investment or experience rapid financial losses. Only trade with money you can afford to lose.</p>
+
+          <h3 className="text-white font-bold mt-6 uppercase tracking-wider text-xs">Third-Party Services</h3>
+          <p>The Company may reference or integrate third-party platforms (e.g. brokers, tools, software). We do not control these services and are not responsible for their performance or outcomes.</p>
+
+          <h3 className="text-white font-bold mt-6 uppercase tracking-wider text-xs">Educational Nature of AI Tools</h3>
+          <p>Any AI tools, chatbots, or analysis provided are based on algorithms and available data, may be inaccurate or incomplete, and should not be relied upon for financial decisions.</p>
+
+          <h3 className="text-white font-bold mt-6 uppercase tracking-wider text-xs">Regulatory Status</h3>
+          <p>The Company is not a licensed financial institution and is not regulated as an investment advisor, a broker, or a financial services provider.</p>
+
+          <h3 className="text-white font-bold mt-6 uppercase tracking-wider text-xs">Jurisdiction</h3>
+          <p>Users are responsible for ensuring that accessing this website and using the services is compliant with their local laws and regulations.</p>
+
+          <h3 className="text-white font-bold mt-6 uppercase tracking-wider text-xs">Contact</h3>
+          <p>Email: <a href="mailto:hey@finademica.com" className="text-accent hover:underline">hey@finademica.com</a></p>
         </div>
       )
     }
@@ -165,13 +307,18 @@ export default function Footer() {
                           <li onClick={() => setActiveModal('terms')} className="hover:text-white transition-colors cursor-pointer">{t('footer.legal.terms')}</li>
                           <li onClick={() => setActiveModal('privacy')} className="hover:text-white transition-colors cursor-pointer">{t('footer.legal.privacy')}</li>
                           <li onClick={() => setActiveModal('cookies')} className="hover:text-white transition-colors cursor-pointer">Cookies Policy</li>
+                          <li onClick={() => setActiveModal('disclaimer')} className="hover:text-white transition-colors cursor-pointer">Full Disclaimer</li>
                       </ul>
                   </div>
               </div>
 
-              <div className="pt-12 border-t border-border flex flex-col md:flex-row items-center justify-between gap-6 text-[9px] font-sans uppercase tracking-[0.4em] text-white/10">
+              <div className="pt-12 border-t border-border flex flex-col md:flex-row items-center justify-between gap-6 text-[9px] font-sans uppercase tracking-[0.4em] text-white/10 mb-8">
                   <span>{t('footer.rights')}</span>
                   <span className="italic">{t('footer.motto')}</span>
+              </div>
+
+              <div className="text-[10px] text-white/20 font-sans font-light leading-relaxed text-center md:text-left max-w-7xl mx-auto">
+                <span className="font-bold text-white/30">RISK WARNING:</span> Trading financial instruments such as Forex, cryptocurrencies, stocks, and commodities involves a high level of risk and may not be suitable for all investors. You can lose some or all of your invested capital. Past performance is not indicative of future results. This content is for educational purposes only and does not constitute investment advice.
               </div>
           </div>
       </footer>
