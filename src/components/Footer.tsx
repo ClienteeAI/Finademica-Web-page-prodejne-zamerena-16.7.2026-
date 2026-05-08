@@ -50,7 +50,7 @@ export default function Footer() {
     <>
       <footer className="bg-bg py-16 lg:py-24 border-t border-border relative z-10">
           <div className="max-w-7xl mx-auto px-10">
-              <div className="grid grid-cols-1 md:grid-cols-4 gap-16 mb-24">
+              <div className="grid grid-cols-1 md:grid-cols-5 gap-16 mb-24">
                   <div className="md:col-span-2">
                       <div className="flex items-center gap-2 mb-10">
                           <img src="/logo.png" alt="Finademica" className="h-12 w-auto object-contain opacity-90" />
@@ -58,9 +58,14 @@ export default function Footer() {
                       <p className="text-text-dim max-w-sm mb-10 font-light italic leading-relaxed text-[13px]">
                           {t('footer.description')}
                       </p>
-                      <div className="flex items-center gap-8 text-white/20">
-                          <Twitter size={18} className="hover:text-accent cursor-pointer transition-colors" />
-                          <Linkedin size={18} className="hover:text-accent cursor-pointer transition-colors" />
+                      <div className="flex flex-col gap-6">
+                          <div className="flex items-center gap-8 text-white/20">
+                              <Twitter size={18} className="hover:text-accent cursor-pointer transition-colors" />
+                              <Linkedin size={18} className="hover:text-accent cursor-pointer transition-colors" />
+                          </div>
+                          <a href="mailto:hey@finademica.com" className="text-white/40 hover:text-accent transition-colors text-[11px] font-sans tracking-widest uppercase">
+                              hey@finademica.com
+                          </a>
                       </div>
                   </div>
 

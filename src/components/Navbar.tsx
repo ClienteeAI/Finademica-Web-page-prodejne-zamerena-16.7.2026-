@@ -66,10 +66,17 @@ export default function Navbar() {
             <NavLink href="#education">{t('nav.lessons')}</NavLink>
             <NavLink href="#tools">{t('nav.tools')}</NavLink>
             <NavLink href="#arena">{t('nav.arena')}</NavLink>
-            <NavLink href="/blog">{t('nav.blog')}</NavLink>
-            <NavLink href="/dictionary">{t('nav.dictionary')}</NavLink>
+            
+            <div className="relative group">
+              <NavLink href="/blog">{t('nav.blog')}</NavLink>
+              <div className="absolute left-0 mt-2 w-48 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 pt-6 -top-2">
+                <div className="bg-surface border border-border shadow-2xl p-2 flex flex-col">
+                  <Link to="/dictionary" className="px-4 py-3 hover:bg-accent/10 transition-colors text-text-dim hover:text-accent uppercase tracking-widest text-[10px] whitespace-nowrap">{t('nav.dictionary')}</Link>
+                </div>
+              </div>
+            </div>
+
             <NavLink href="/career">{t('career.nav')}</NavLink>
-            <NavLink href="#pricing" isAccent>{t('nav.partners')}</NavLink>
             
             {/* Language Switcher */}
             <div className="relative" ref={langRef}>
@@ -143,7 +150,6 @@ export default function Navbar() {
               <NavLink href="/blog">{t('nav.blog')}</NavLink>
               <NavLink href="/dictionary">{t('nav.dictionary')}</NavLink>
               <NavLink href="/career">{t('career.nav')}</NavLink>
-              <NavLink href="#pricing" isAccent>{t('nav.partners')}</NavLink>
             </div>
           </motion.div>
         )}
