@@ -49,9 +49,9 @@ export default function Pricing() {
                         ))}
                     </div>
 
-                    <button className="w-full py-4 border border-white/10 text-[10px] uppercase font-bold tracking-[0.3em] hover:bg-white hover:text-bg transition-all rounded-sm">
+                    <a href="https://app.finademica.com/signup" className="block text-center w-full py-4 border border-white/10 text-[10px] uppercase font-bold tracking-[0.3em] hover:bg-white hover:text-bg transition-all rounded-sm">
                         {t('pricing.foundation.cta')}
-                    </button>
+                    </a>
                 </motion.div>
 
                 {/* Cosmic Tier - More Colorful/Premium */}
@@ -82,9 +82,9 @@ export default function Pricing() {
                         ))}
                     </div>
 
-                    <button className="w-full py-5 bg-gradient-to-r from-accent to-blue-600 text-white font-bold text-[11px] uppercase tracking-[0.3em] hover:scale-[1.02] transition-all shadow-2xl shadow-accent/20 rounded-sm">
+                    <a href="https://app.finademica.com/signup" className="block text-center w-full py-5 bg-gradient-to-r from-accent to-blue-600 text-white font-bold text-[11px] uppercase tracking-[0.3em] hover:scale-[1.02] transition-all shadow-2xl shadow-accent/20 rounded-sm">
                         {t('pricing.cosmic.cta')}
-                    </button>
+                    </a>
                 </motion.div>
             </div>
        </div>

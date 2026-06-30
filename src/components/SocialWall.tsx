@@ -68,9 +68,9 @@ export default function SocialWall() {
             </div>
 
             <div className="mt-16 text-center">
-                <button className="text-text-dim text-[10px] font-sans uppercase tracking-[0.4em] hover:text-white transition-colors border-b border-transparent hover:border-accent pb-1">
+                <a href="https://app.finademica.com/signup" className="inline-block text-text-dim text-[10px] font-sans uppercase tracking-[0.4em] hover:text-white transition-colors border-b border-transparent hover:border-accent pb-1">
                     {t('social.cta')}
-                </button>
+                </a>
             </div>
        </div>
     </section>

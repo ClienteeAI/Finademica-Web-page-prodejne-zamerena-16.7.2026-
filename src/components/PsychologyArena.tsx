@@ -43,9 +43,9 @@ export default function PsychologyArena() {
                         {t('arena.description')}
                     </p>
                 </div>
-                <button className="px-12 py-5 bg-white text-bg font-bold text-[11px] uppercase tracking-[0.3em] hover:bg-accent hover:text-white transition-all shadow-2xl shadow-white/5 group">
+                <a href="https://app.finademica.com/signup" className="px-12 py-5 bg-white text-bg font-bold text-[11px] uppercase tracking-[0.3em] hover:bg-accent hover:text-white transition-all shadow-2xl shadow-white/5 group">
                     <span className="group-hover:translate-x-1 transition-transform inline-block">{t('arena.cta')}</span>
-                </button>
+                </a>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">

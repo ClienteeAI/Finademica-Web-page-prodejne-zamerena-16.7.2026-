@@ -87,12 +87,12 @@ export default function Hero() {
             </p>
             
             <div className="flex items-center gap-8">
-              <button className="px-10 py-4 bg-accent text-white font-bold text-[11px] uppercase tracking-widest hover:bg-accent-vibrant transition-all shadow-2xl shadow-accent/40 rounded-sm">
+              <a href="https://app.finademica.com/signup" className="px-10 py-4 bg-accent text-white font-bold text-[11px] uppercase tracking-widest hover:bg-accent-vibrant transition-all shadow-2xl shadow-accent/40 rounded-sm">
                 {t(`hero.${activeDeck.id}.modules`)}
-              </button>
-              <button className="text-[11px] uppercase tracking-widest text-white/40 hover:text-white transition-colors border-b border-white/10 pb-1">
+              </a>
+              <a href="https://app.finademica.com/signup" className="text-[11px] uppercase tracking-widest text-white/40 hover:text-white transition-colors border-b border-white/10 pb-1">
                 {t(`hero.${activeDeck.id}.explore`)}
-              </button>
+              </a>
             </div>
           </motion.div>
 
