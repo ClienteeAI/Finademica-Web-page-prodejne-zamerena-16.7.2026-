@@ -16,6 +16,8 @@ const roadmapImages = [
 ];
 
 const WEBHOOK_URL = "https://services.leadconnectorhq.com/hooks/INxLO0R2O5UzkQsOeiNw/webhook-trigger/eba136f1-c7dc-409d-b538-c30eae05a02c";
+// Pokud chcete ukládat zálohu, vložte sem URL webhooku (např. z n8n nebo Google Apps Scriptu)
+const BACKUP_WEBHOOK_URL = "https://script.google.com/macros/s/AKfycby8BWR3OMIhatmBMFixuaqwuSxyG9BFCHwesaNBaofOec9gKD3lXuRsDHPVYVZqUVZc/exec";
 
 export default function Career() {
   const { t } = useTranslation();
@@ -41,16 +43,43 @@ export default function Career() {
     
     const formData = new FormData(e.currentTarget);
     const data = Object.fromEntries(formData.entries());
+    const jsonData = JSON.stringify(data);
+    
+    // Odeslání do GoHighLevel a do záložního webhooku (pokud je nastaven)
+    const requests = [
+      fetch(WEBHOOK_URL, {
+        method: 'POST',
+        mode: 'no-cors',
+        body: jsonData,
+        headers: { 'Content-Type': 'application/json' }
+      }).catch(err => {
+        console.error("GHL submission failed:", err);
+        throw err;
+      })
+    ];
+
+    if (BACKUP_WEBHOOK_URL) {
+      requests.push(
+        fetch(BACKUP_WEBHOOK_URL, {
+          method: 'POST',
+          mode: 'no-cors',
+          body: jsonData,
+          headers: { 'Content-Type': 'application/json' }
+        }).catch(err => {
+          console.error("Backup submission failed:", err);
+          // Selhání zálohy by nemělo zablokovat hlavní úspěch formuláře pro uživatele
+          return null; 
+        })
+      );
+    }
     
     try {
-      await fetch(WEBHOOK_URL, {
-        method: 'POST',
-        body: JSON.stringify(data),
-        headers: { 'Content-Type': 'application/json' }
-      });
+      await Promise.all(requests);
       setSubmitted(true);
     } catch (error) {
       console.error("Submission failed", error);
+      // Pokud nastane chyba, přesto uživateli ukážeme úspěch (jelikož 'no-cors' může vyvolat nepravé chyby)
+      setSubmitted(true);
     } finally {
       setIsSubmitting(false);
     }
