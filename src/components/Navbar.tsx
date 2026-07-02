@@ -58,8 +58,9 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 right-0 z-50 border-b border-border bg-bg/80 backdrop-blur-md">
       <div className="max-w-7xl mx-auto px-10">
         <div className="flex justify-between items-center h-20">
-          <Link to="/" className="flex items-center gap-4 group">
-            <img src="/logo.png" alt="Finademica" className="h-14 w-auto object-contain brightness-110 group-hover:scale-105 transition-transform" />
+          <Link to="/" className="flex items-center gap-3 group">
+            <img src="/logo-icon.png" alt="" aria-hidden="true" className="h-10 w-auto object-contain group-hover:scale-105 transition-transform" />
+            <img src="/logo-name.png" alt="Finademica" className="h-5 sm:h-6 w-auto object-contain" />
           </Link>
           
           <div className="hidden md:flex items-center space-x-12 text-[11px] font-sans uppercase tracking-[0.15em] text-text-dim">

@@ -52,8 +52,9 @@ export default function Footer() {
           <div className="max-w-7xl mx-auto px-10">
               <div className="grid grid-cols-1 md:grid-cols-5 gap-16 mb-24">
                   <div className="md:col-span-2">
-                      <div className="flex items-center gap-2 mb-10">
-                          <img src="/logo.png" alt="Finademica" className="h-12 w-auto object-contain opacity-90" />
+                      <div className="flex items-center gap-3 mb-10">
+                          <img src="/logo-icon.png" alt="" aria-hidden="true" className="h-12 w-auto object-contain" />
+                          <img src="/logo-wordmark.png" alt="Finademica" className="h-10 w-auto object-contain" />
                       </div>
                       <p className="text-text-dim max-w-sm mb-10 font-light italic leading-relaxed text-[13px]">
                           {t('footer.description')}
