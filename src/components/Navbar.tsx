@@ -63,7 +63,7 @@ export default function Navbar() {
             <img src="/logo-name.png" alt="Finademica" className="h-5 sm:h-6 w-auto object-contain" />
           </Link>
           
-          <div className="hidden md:flex items-center space-x-12 text-[11px] font-sans uppercase tracking-[0.15em] text-text-dim">
+          <div className="hidden md:flex items-center space-x-6 text-[11px] font-sans uppercase tracking-[0.12em] text-text-dim">
             <NavLink href="#education">{t('nav.lessons')}</NavLink>
             <NavLink href="#tools">{t('nav.tools')}</NavLink>
             <NavLink href="#arena">{t('nav.arena')}</NavLink>
@@ -115,6 +115,22 @@ export default function Navbar() {
                 )}
               </AnimatePresence>
             </div>
+
+            {/* Auth buttons */}
+            <div className="flex items-center gap-4 pl-4 border-l border-border">
+              <a
+                href="https://app.finademica.com/login"
+                className="text-[11px] uppercase tracking-[0.15em] text-text-dim hover:text-accent transition-colors"
+              >
+                {t('nav.login')}
+              </a>
+              <a
+                href="https://app.finademica.com/signup"
+                className="px-5 py-2.5 bg-accent text-white font-bold text-[11px] uppercase tracking-[0.15em] hover:bg-accent-vibrant transition-all shadow-lg shadow-accent/30 rounded-sm whitespace-nowrap"
+              >
+                {t('nav.cta')}
+              </a>
+            </div>
           </div>
 
           <div className="md:hidden flex items-center gap-4">
@@ -151,6 +167,21 @@ export default function Navbar() {
               <NavLink href="/blog">{t('nav.blog')}</NavLink>
               <NavLink href="/dictionary">{t('nav.dictionary')}</NavLink>
               <NavLink href="/career">{t('career.nav')}</NavLink>
+
+              <div className="flex flex-col items-center gap-4 pt-4 border-t border-border">
+                <a
+                  href="https://app.finademica.com/login"
+                  className="text-[12px] uppercase tracking-[0.2em] text-text-dim hover:text-accent transition-colors"
+                >
+                  {t('nav.login')}
+                </a>
+                <a
+                  href="https://app.finademica.com/signup"
+                  className="w-full py-3 bg-accent text-white font-bold text-[12px] uppercase tracking-[0.2em] hover:bg-accent-vibrant transition-all rounded-sm"
+                >
+                  {t('nav.cta')}
+                </a>
+              </div>
             </div>
           </motion.div>
         )}
