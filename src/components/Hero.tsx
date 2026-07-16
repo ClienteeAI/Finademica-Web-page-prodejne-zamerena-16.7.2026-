@@ -88,11 +88,19 @@ export default function Hero() {
             
             <div className="flex items-center gap-8">
               <a href="https://app.finademica.com/signup" className="px-10 py-4 bg-accent text-white font-bold text-[11px] uppercase tracking-widest hover:bg-accent-vibrant transition-all shadow-2xl shadow-accent/40 rounded-sm">
-                {t(`hero.${activeDeck.id}.modules`)}
+                Vytvořit účet zdarma
               </a>
-              <a href="https://app.finademica.com/signup" className="text-[11px] uppercase tracking-widest text-white/40 hover:text-white transition-colors border-b border-white/10 pb-1">
+              <a href="#stock-analyzer" className="text-[11px] uppercase tracking-widest text-white/40 hover:text-white transition-colors border-b border-white/10 pb-1">
                 {t(`hero.${activeDeck.id}.explore`)}
               </a>
+            </div>
+
+            {/* Trust / stat bar */}
+            <div className="mt-12 flex flex-wrap items-center gap-x-8 gap-y-3 text-[11px] uppercase tracking-[0.15em] text-white/40">
+              <span><strong className="text-white/80 font-mono not-italic">262</strong> lekcí</span>
+              <span><strong className="text-white/80 font-mono not-italic">6</strong> pilířů</span>
+              <span>Živě každý den</span>
+              <span>Kompletně česky</span>
             </div>
           </motion.div>
 

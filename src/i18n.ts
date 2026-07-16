@@ -15,12 +15,14 @@ i18n
       cs: { translation: cs },
       pl: { translation: pl },
     },
-    fallbackLng: 'en',
+    fallbackLng: 'cs',
     interpolation: {
       escapeValue: false,
     },
     detection: {
-      order: ['querystring', 'cookie', 'localStorage', 'navigator', 'path', 'subdomain'],
+      // Bez 'navigator' → nový návštěvník bez uložené volby dostane češtinu (fallbackLng).
+      // Přepnutí jazyka se uloží a přežije (localStorage/cookie).
+      order: ['querystring', 'cookie', 'localStorage'],
       caches: ['localStorage', 'cookie'],
     },
   });

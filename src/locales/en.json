@@ -246,5 +246,259 @@
         "other": "Other"
       }
     }
+  },
+  "sales": {
+    "announce": {
+      "expired": "Founding access — last spots",
+      "active": "Founding access ends in",
+      "cta": "Claim my spot →"
+    },
+    "problem": {
+      "eyebrow": "The hard truth",
+      "titlePre": "Most beginners end up ",
+      "titleEm": "in the red",
+      "titlePost": ".",
+      "descPre": "Not because they're not smart. But because they're missing three things at once:",
+      "descEm": " a system, control over their emotions, and data on their own trading.",
+      "descPost": " Exactly what ordinary \"trading courses\" never fix.",
+      "pains": [
+        { "title": "No system", "desc": "You buy on internet tips and gut feeling. No rules, no plan for entry or exit. Every trade is a guess." },
+        { "title": "Emotion over data", "desc": "Fear and greed decide for you. You sell at a loss out of fear and hold a loser out of hope. The market reads you better than you read yourself." },
+        { "title": "No feedback loop", "desc": "You have no idea what you're actually doing right or wrong. Without a journal and data, you repeat the same mistakes over and over." }
+      ],
+      "bottomPre": "Finademica fixes all three at once — ",
+      "bottomEm": "in one place",
+      "bottomPost": ".",
+      "cta": "Fix this now"
+    },
+    "analyzer": {
+      "eyebrow": "Flagship tool",
+      "titlePre": "Deep AI stock analysis, ",
+      "titleEm": "inspired by the tools big funds use",
+      "titlePost": " — and clear enough for a beginner.",
+      "descPre": "One analysis hands you what the average investor could never piece together alone: a verdict, a fair-value estimate, technical and fundamental data, a peer comparison, and the macro picture. And for every term, a",
+      "descEm": " plain-language note",
+      "descPost": " — so you follow along, even on day one.",
+      "aiLabel": "AI-DRIVEN ANALYSIS",
+      "statScore": "Score",
+      "statConviction": "Conviction",
+      "statFairValue": "Fair value",
+      "statHorizon": "Horizon",
+      "horizonValue": "Mid-term",
+      "verdict": "Cameco is a quality company with a healthy balance sheet and growing cash flow, but at today's extreme valuation the risk-reward is unattractive — so it's one to hold rather than buy.",
+      "risksTitle": "Key risks",
+      "risks": [
+        "Extreme valuation (P/E 85, EV/EBITDA 58,6) leaves no cushion for any disappointment",
+        "The price of uranium drives the entire thesis, and the commodity cycle is volatile",
+        "Operational risk, with production concentrated in a handful of deposits",
+        "Low returns on capital (ROIC 4,8 %, ROE 8,5 %) don't justify the rich valuation"
+      ],
+      "glossaryTitle": "Glossary",
+      "glossarySub": "Every term in this analysis, made simple",
+      "glossary": [
+        "Share price relative to annual earnings per share. Lower is usually cheaper.",
+        "P/E divided by earnings growth. Below 1 means growth is priced in cheaply.",
+        "Enterprise value (incl. debt) against operating profit. Compares without the effect of leverage.",
+        "An estimate of a stock's intrinsic value from a model. Compared against the current price.",
+        "Relative Strength Index (0–100). Above 70 is overbought, below 30 oversold.",
+        "A trend indicator built from the gap between two moving averages."
+      ],
+      "tabs": ["Overview", "Technicals", "Fundamentals", "News & sentiment"],
+      "cta": "Try the analyzer",
+      "caption": "Illustrative example of a real output · every analysis is computed for the specific stock"
+    },
+    "weekly": {
+      "sectionLabel": "Every single week",
+      "titlePre": "Concrete stock picks — and ",
+      "titleEm": "we track them with you, live",
+      "titlePost": ".",
+      "desc": "No vague calls whispered after the fact. Every week we pick stocks, \"buy\" them at the real price, then watch how it plays out with you — winners and losers alike. Fully transparent.",
+      "weekLive": "Week in progress — live results",
+      "bought": "Bought:",
+      "picksLabel": "This week's picks — 1 live position + 4 locked",
+      "sinceBuy": "since buy",
+      "tagInternet": "Internet",
+      "tagReversal": "Possible bottom reversal",
+      "tagCyber": "Cybersecurity",
+      "tagAnalysisDone": "Analysis ready",
+      "googlAnalysis": "Alphabet is a quality, fast-growing company priced reasonably against its growth; heavy AI spending is temporarily weighing on free cash flow, which makes the stock more of an opportunity to accumulate gradually. Bought at $355.26 — we keep tracking the real move.",
+      "labelBuy": "Buy",
+      "labelNow": "Now",
+      "labelToday": "Today",
+      "lockedParagraph": "The full position analysis — entry price, targets, and risk management — is ready. Unlock it with a paid plan and get this week's remaining 3 picks too, which regularly close in the green.",
+      "lockedTitle": "Locked pick",
+      "lockedSub": "Unlock the full analysis and entry price with a paid plan.",
+      "unlockCta": "Unlock access",
+      "bottomLine": "Real positions, real prices, real results — no window dressing.",
+      "bottomCta": "Show me every pick →"
+    },
+    "betting": {
+      "eyebrow": "Train the fun way",
+      "pill": "Betting Arena",
+      "titlePre": "Call the market's direction, stack ",
+      "titlePost": " and go head-to-head with everyone else.",
+      "desc": "You predict real market moves (S&P 500, gold, Bitcoin) and wager XP points you earn by putting in the work. No real money at risk — just pure practice reading the market and staying disciplined.",
+      "markets": [
+        "Will the S&P 500 close above 7584 today?",
+        "Will Gold clear $4042.9 an ounce in the next 12h?",
+        "Will Bitcoin be above $65200 in the next 6 hours?"
+      ],
+      "headerTitle": "XP Betting Arena",
+      "realFeed": "Live feed",
+      "headerSub": "Submit betting plans on real markets and settle them against actual prices",
+      "yourXp": "Your XP points",
+      "step1": "1 · Pick an instrument and a call",
+      "step2": "2 · Direction of your call",
+      "step3": "3 · Stake (wager)",
+      "dirUp": "Up (Bullish)",
+      "dirDown": "Down (Bearish)",
+      "nowLabel": "Now:",
+      "submitBet": "Log your betting plan (50 XP)",
+      "bottomLine": "Rack up XP, climb the leaderboard, and train decision-making under pressure — a new challenge every day.",
+      "bottomCta": "Enter the arena →"
+    },
+    "diary": {
+      "eyebrow": "Know yourself",
+      "pill": "Trading Journal",
+      "titlePre": "See when you make money — and when you're ",
+      "titleEm": "your own worst enemy",
+      "titlePost": ".",
+      "desc": "Log your trades and the journal reveals your real patterns: which days and hours you win most, how well you hold stop-loss discipline, and where you bleed. Data instead of feelings.",
+      "tabHistory": "Trade history",
+      "tabAnalytics": "Advanced analytics",
+      "statWinRate": "Win rate",
+      "statWinRateSub": "0 of 3 trades",
+      "statProfit": "Total profit",
+      "statProfitSub": "across all closed",
+      "statRrr": "Average RRR",
+      "statRrrSub": "recommended min. 1.50",
+      "statCapital": "Capital protected",
+      "statCapitalSub": "100% stop-loss discipline",
+      "calTitle": "Profitability calendar",
+      "calCaption": "Green days = net profit, red = loss.",
+      "dayHeaders": ["MO", "TU", "WE", "TH", "FR", "SA", "SU"],
+      "champBadge": "Absolute champion",
+      "champDay": "Wednesday",
+      "champSub": "85 % win rate · total profit +$450.00",
+      "byDayTitle": "Win rate by day",
+      "byDayNames": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "cta": "Start journaling"
+    },
+    "pillars": {
+      "eyebrow": "Core of the academy",
+      "pill": "262 lessons · in Czech",
+      "titleEm": "262 video lessons",
+      "titlePost": " across six pillars — in Czech, from zero.",
+      "desc": "No chaotic list of videos. A clear path split into pillars, with the truly essential ones marked \"required,\" and levels that start at beginner and climb from there.",
+      "lessonsLabel": "lessons",
+      "items": [
+        { "name": "Risk management", "desc": "The foundation of everything. How not to blow up before you start making money." },
+        { "name": "Forex", "desc": "Currency pairs, liquidity, and the biggest market in the world." },
+        { "name": "Psychology", "desc": "Master fear and greed before they master you." },
+        { "name": "Commodities", "desc": "Gold, oil, uranium — how they work and why they move." },
+        { "name": "Prop trading", "desc": "Trade someone else's capital and scale without risking your own." },
+        { "name": "Stocks", "desc": "From \"what is a stock\" to reading fundamentals and indices." }
+      ],
+      "foundationTitle": "+ 126 foundation lessons",
+      "foundationDesc": "Before you dive into the pillars — you'll understand how markets actually work.",
+      "foundationCta": "Open the library →"
+    },
+    "live": {
+      "eyebrow": "Every morning",
+      "pill": "Morning meetings",
+      "titlePre": "Start the day ",
+      "titleEm": "prepared",
+      "titlePost": ", not blindsided.",
+      "desc": "Every morning we walk through what's happening in the markets, what to watch out for, and where the opportunities are. Missed the morning? The full archive is there whenever you need it.",
+      "card1Label": "Every morning",
+      "card1Title": "Morning meetings",
+      "card1Desc": "Daily market prep with experienced traders. Concrete setups, no filler.",
+      "card1Foot": "Every trading day, in the morning",
+      "card2Label": "Anytime",
+      "card2Title": "Session archive",
+      "card2Desc": "A missed morning is no problem. Jump back into any session, follow how it played out, and learn from real decisions.",
+      "card2Foot": "Full recordings available"
+    },
+    "roadmap": {
+      "eyebrow": "Your path",
+      "pill": "Roadmap",
+      "titlePre": "A clear path from beginner ",
+      "titleEm": "to your own system",
+      "titlePost": ".",
+      "desc": "No guessing where to start. The roadmap walks you through it step by step — you always know where you are and what's next.",
+      "steps": [
+        { "title": "Market basics", "desc": "Understand how markets work and how not to get lost in them. From zero, in Czech." },
+        { "title": "Risk & psychology", "desc": "Learn to protect your capital and control your emotions — before you ever put money on the line." },
+        { "title": "Tools & analysis", "desc": "Stock Analyzer, risk calculator, journal. You decide on data, not feelings." },
+        { "title": "Live training", "desc": "Arenas and demo trading. Practice decisions under pressure with no real money at risk." },
+        { "title": "Your own system", "desc": "Read your strong days and patterns from the journal and build a trading system that's truly yours." }
+      ]
+    },
+    "how": {
+      "eyebrow": "How it works",
+      "titlePre": "From sign-up to your first ",
+      "titleEm": "data-driven decision",
+      "titlePost": ".",
+      "steps": [
+        { "title": "Sign up", "desc": "Create an account and get instant access to the academy — in Czech, on desktop and mobile." },
+        { "title": "Follow the roadmap", "desc": "The roadmap and lessons take you from the basics to advanced strategies, step by step." },
+        { "title": "Train risk-free", "desc": "In the arenas and on demo trades you try everything for real — before you risk actual money." },
+        { "title": "Decide on data", "desc": "Use Stock Analyzer, Weekly Picks, and the journal for real decisions and track the results." }
+      ]
+    },
+    "compare": {
+      "eyebrow": "The difference",
+      "titlePre": "Going it alone ",
+      "oldHeader": "On your own",
+      "newHeader": "With Finademica",
+      "rows": [
+        { "old": "Information scattered across YouTube and Discords", "neu": "Everything in one place, in a clear structure" },
+        { "old": "Just theory and pretty videos", "neu": "Theory + real tools and live training" },
+        { "old": "Everything on your own", "neu": "Morning meetings, community, and AI support" },
+        { "old": "Emotions decide for you", "neu": "The Psychology Arena trains your discipline" },
+        { "old": "Guessing what you're doing wrong", "neu": "The journal shows you data on your trading" },
+        { "old": "Pricey stock analyses bought separately", "neu": "Stock Analyzer and Weekly Picks included" }
+      ]
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Before you decide",
+      "items": [
+        { "q": "Who is the academy for?", "a": "Complete beginners and advanced traders alike. You start from the basics — \"what is a stock\" — and move through risk management and psychology up to advanced strategies. You don't need to know anything upfront." },
+        { "q": "Is everything in Czech?", "a": "Yes. The lessons, tools, and analyses are all in Czech. Every technical term comes with a plain-language note, so you never get lost." },
+        { "q": "Do I have to risk my own money?", "a": "No. You can train on demo trades and in the arenas completely risk-free. You put real money on the line only when you feel ready." },
+        { "q": "Do I need a lot of capital?", "a": "No. The academy mainly teaches you to manage risk and make decisions. And with prop trading, you can even trade someone else's capital." },
+        { "q": "What devices does it run on?", "a": "Anywhere in your browser — desktop, tablet, or phone. Nothing to install." },
+        { "q": "How much does it cost?", "a": "Pricing and packages will be added here. Payment is handled securely through Stripe. Ask for the current offer via the sign-up button." }
+      ]
+    },
+    "finalCta": {
+      "eyebrow": "The Architecture of Mastery",
+      "titleLine1": "Stop guessing.",
+      "titleLine2Pre": "Start trading ",
+      "titleEm": "with a system",
+      "titleLine2Post": ".",
+      "desc": "262 lessons, real tools, live training, and data on your own trading — all in one place, in Czech.",
+      "ctaPrimary": "Get started",
+      "ctaSecondary": "I already have an account",
+      "badge1": "Fully in Czech",
+      "badge2": "Desktop & mobile",
+      "badge3": "Risk-free training"
+    },
+    "ctaBands": {
+      "defaultCta": "Get started",
+      "band1Eyebrow": "Founding access",
+      "band1Title": "These tools are waiting inside — ready the moment you sign up.",
+      "band1Subtitle": "Stock Analyzer, Weekly Picks, and the whole academy. Start today.",
+      "band1Cta": "I want access",
+      "band2Title": "Stop piecing trading together from scraps. Get it all in one place.",
+      "band2Subtitle": "262 lessons, tools, live training, and data on your own trading — in Czech.",
+      "band2Cta": "Get started"
+    },
+    "brandQuote": {
+      "eyebrow": "The Foundation Stone",
+      "quotePre": "\"When you raise a building, you begin with the first stone that holds the whole together. ",
+      "quoteEm": "That is our craft.\""
+    }
   }
 }

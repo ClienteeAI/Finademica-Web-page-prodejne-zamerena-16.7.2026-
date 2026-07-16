@@ -32,7 +32,7 @@ function AppContent() {
       <ScrollToTop />
       
       {/* Scroll Progress Bar */}
-      <motion.div 
+      <motion.div
         className="fixed top-20 left-0 right-0 h-[2px] bg-accent z-50 origin-[0%]"
         style={{ scaleX }}
       />

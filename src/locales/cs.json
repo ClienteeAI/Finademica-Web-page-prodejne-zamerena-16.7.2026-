@@ -1,6 +1,6 @@
 {
   "nav": {
-    "lessons": "260+ Lekcí",
+    "lessons": "262 Lekcí",
     "tools": "AI Nástroje",
     "arena": "Aréna",
     "blog": "Blog",
@@ -14,14 +14,14 @@
       "label": "Budoucnost vzdělávání v tradingu",
       "headline": "Ovládněte hru<br/>své mysli",
       "description": "Vítejte v první akademii na světě poháněné AI, která se zaměřuje na hloubkovou architekturu obchodní psychologie. Jdeme daleko za hranice technické analýzy – přenastavíme vaši mysl přímo pro boj v aréně.",
-      "modules": "260+ Modulů",
+      "modules": "262 Lekcí",
       "explore": "Prozkoumat program"
     },
     "deck2": {
       "label": "Cena za nepřipravenost",
       "headline": "Nenechte se<br/>pohltit chaosem",
       "description": "Trhy se pohybují rychleji, než dokáží lidské emoce zpracovat. Zatímco svět pádí závratnou rychlostí, většina traderů se v ní ztrácí. Přestaňte jen reagovat. Začněte předvídat.",
-      "modules": "260+ Modulů",
+      "modules": "262 Lekcí",
       "explore": "Prozkoumat program"
     },
     "scroll": "Rolovat"
@@ -35,8 +35,8 @@
     "steps": {
       "01": {
         "title": "Video Akademie",
-        "desc": "Získejte přístup k více než 260 prémiovým lekcím v angličtině, které pokrývají vše od základů až po pokročilé institucionální strategie.",
-        "stat": "260+ Videí"
+        "desc": "Získejte přístup k 262 prémiovým lekcím v češtině, které pokrývají vše od základů až po pokročilé institucionální strategie.",
+        "stat": "262 Videí"
       },
       "02": {
         "title": "AI Analýza Trhu",
@@ -126,7 +126,7 @@
       "desc": "Kompletní výcvik psychologické války a profesionální nástroje bez omezení.",
       "cta": "Vzestoupit k elitě",
       "features": [
-        "260+ modulárních video přednášek",
+        "262 video lekcí v 6 pilířích (česky)",
         "Plný přístup do Psychologické Arény",
         "Vlastní sada AI analytických nástrojů",
         "Přímé 1-na-1 konzultace s AI mentorem",
@@ -245,6 +245,260 @@
         "master": "Magisterské",
         "other": "Jiné"
       }
+    }
+  },
+  "sales": {
+    "announce": {
+      "expired": "Zakládající přístup — poslední místa",
+      "active": "Zakládající přístup končí za",
+      "cta": "Zajistit místo →"
+    },
+    "problem": {
+      "eyebrow": "Tvrdá realita",
+      "titlePre": "Většina začátečníků skončí ",
+      "titleEm": "ve ztrátě",
+      "titlePost": ".",
+      "descPre": "Ne proto, že by byli hloupí. Ale protože jim chybí tři věci najednou:",
+      "descEm": " systém, ovládnutí emocí a data o vlastním obchodování.",
+      "descPost": " Přesně to, co běžné „kurzy tradingu\" neřeší.",
+      "pains": [
+        { "title": "Žádný systém", "desc": "Nakupuješ podle tipů z internetu a pocitů. Bez pravidel, bez plánu vstupu i výstupu. Každý obchod je hádání." },
+        { "title": "Emoce místo dat", "desc": "Strach a chamtivost rozhodují za tebe. Prodáš ve ztrátě ze strachu, držíš ztrátu z naděje. Trh tě čte líp než ty sám." },
+        { "title": "Žádná zpětná vazba", "desc": "Nevíš, co reálně děláš dobře a co špatně. Bez deníku a dat opakuješ ty samé chyby dokola." }
+      ],
+      "bottomPre": "Finademica řeší všechny tři najednou — ",
+      "bottomEm": "na jednom místě",
+      "bottomPost": ".",
+      "cta": "Chci to řešit"
+    },
+    "analyzer": {
+      "eyebrow": "Vlajková loď",
+      "titlePre": "Hloubková AI analýza akcií, ",
+      "titleEm": "inspirovaná nástroji velkých fondů",
+      "titlePost": " — a srozumitelná i pro začátečníka.",
+      "descPre": "Jedna analýza ti dá to, co si běžný investor jen tak nesloží dohromady: verdikt, odhad férové hodnoty, technická i fundamentální data, srovnání s konkurencí a makro kontext. A ke každému pojmu",
+      "descEm": " vysvětlivku",
+      "descPost": " — takže se v tom vyznáš, i když teprve začínáš.",
+      "aiLabel": "ANALÝZA ŘÍZENÁ AI",
+      "statScore": "Skóre",
+      "statConviction": "Přesvědčení",
+      "statFairValue": "Férová hodnota",
+      "statHorizon": "Horizont",
+      "horizonValue": "Střednědobý",
+      "verdict": "Cameco je kvalitní firma se zdravou rozvahou a rostoucím cash flow, ale při současné extrémní valuaci nabízí nevýhodný poměr rizika a výnosu — proto je vhodné akcii spíše držet než nakupovat.",
+      "risksTitle": "Klíčová rizika",
+      "risks": [
+        "Extrémní valuace (P/E 85, EV/EBITDA 58,6) neposkytuje polštář při jakémkoli zklamání",
+        "Cena uranu je klíčovým faktorem celé teze a komoditní cyklus je proměnlivý",
+        "Provozní rizika a koncentrace produkce do několika ložisek",
+        "Nízká návratnost kapitálu (ROIC 4,8 %, ROE 8,5 %) neodpovídá vysoké valuaci"
+      ],
+      "glossaryTitle": "Vysvětlivky",
+      "glossarySub": "Pojmy z této analýzy jednoduše",
+      "glossary": [
+        "Poměr ceny akcie k ročnímu zisku na akcii. Nižší bývá levnější.",
+        "P/E vydělené tempem růstu zisku. Pod 1 = růst je v ceně levně.",
+        "Hodnota firmy (vč. dluhu) vůči provoznímu zisku. Srovnává bez vlivu zadlužení.",
+        "Odhad vnitřní hodnoty akcie podle modelu. Porovnává se s aktuální cenou.",
+        "Index relativní síly (0–100). Nad 70 překoupeno, pod 30 přeprodáno.",
+        "Indikátor trendu z rozdílu dvou klouzavých průměrů."
+      ],
+      "tabs": ["Hlavní přehled", "Technická analýza", "Fundamentální kritéria", "Zprávy a sentiment"],
+      "cta": "Vyzkoušet analyzátor",
+      "caption": "Ilustrační ukázka reálného výstupu · každá analýza je počítána na míru dané akcii"
+    },
+    "weekly": {
+      "sectionLabel": "Každý týden znovu",
+      "titlePre": "Konkrétní tipy na akcie — a ",
+      "titleEm": "sledujeme je s tebou živě",
+      "titlePost": ".",
+      "desc": "Žádné mlžení do kapsy. Každý týden vybereme akcie, „koupíme\" je za reálnou cenu a pak před tebou sledujeme, jak to dopadlo — do plusu i do mínusu. Transparentně.",
+      "weekLive": "Týden probíhá — živé výsledky",
+      "bought": "Nakoupeno:",
+      "picksLabel": "Výběr týdne — 1 reálná pozice + 4 zamčené",
+      "sinceBuy": "od nákupu",
+      "tagInternet": "Internet",
+      "tagReversal": "Možný obrat zdola",
+      "tagCyber": "Kyberbezpečnost",
+      "tagAnalysisDone": "Analýza hotová",
+      "googlAnalysis": "Alphabet je kvalitní a rychle rostoucí firma s rozumným oceněním vůči růstu; zvýšené investice do AI dočasně tlačí na volný cash flow, takže z akcie dělají spíš příležitost k postupnému nakupování. Koupeno za $355.26, dál sledujeme reálný vývoj.",
+      "labelBuy": "Nákup",
+      "labelNow": "Nyní",
+      "labelToday": "Dnes",
+      "lockedParagraph": "Kompletní analýza pozice včetně vstupní ceny, cílů a řízení rizika je připravená. Odemkni ji placeným přístupem a získej i zbývající 3 tipy tohoto týdne, které pravidelně končí v plusu.",
+      "lockedTitle": "Zamčený tip",
+      "lockedSub": "Odemkni kompletní analýzu a vstupní cenu placeným přístupem.",
+      "unlockCta": "Odemknout přístup",
+      "bottomLine": "Reálné pozice, reálné ceny, reálné výsledky — bez přikrášlování.",
+      "bottomCta": "Chci vidět všechny tipy →"
+    },
+    "betting": {
+      "eyebrow": "Trénuj hravě",
+      "pill": "Sázková aréna",
+      "titlePre": "Tipuj směr trhu, sbírej ",
+      "titlePost": " a měř se s ostatními.",
+      "desc": "Predikuješ pohyb reálných trhů (S&P 500, zlato, Bitcoin) a sázíš XP body, které získáváš tím, že se akademii věnuješ. Bez rizika reálných peněz — jen čistý trénink čtení trhu a disciplíny.",
+      "markets": [
+        "Uzavře dnes S&P 500 nad 7584 body?",
+        "Překoná Zlato cenu $4042.9 za unci v příštích 12h?",
+        "Bude Bitcoin nad $65200 v příštích 6 hodinách?"
+      ],
+      "headerTitle": "XP Sázková Aréna",
+      "realFeed": "Reálný feed",
+      "headerSub": "Podávej sázkové plány na reálné trhy a vyhodnoť podle skutečných cen",
+      "yourXp": "Tvoje XP body",
+      "step1": "1 · Vyber nástroj a predikci",
+      "step2": "2 · Směr předpovědi",
+      "step3": "3 · Výše sázky (wager)",
+      "dirUp": "Růst (Bullish)",
+      "dirDown": "Pokles (Bearish)",
+      "nowLabel": "Nyní:",
+      "submitBet": "Zapsat sázkový plán (50 XP)",
+      "bottomLine": "Sbírej XP, stoupej v žebříčku a trénuj rozhodování pod tlakem — každý den nová výzva.",
+      "bottomCta": "Vstoupit do arény →"
+    },
+    "diary": {
+      "eyebrow": "Poznej sám sebe",
+      "pill": "Obchodní deník",
+      "titlePre": "Zjisti, kdy vyděláváš — a kdy si ",
+      "titleEm": "škodíš",
+      "titlePost": ".",
+      "desc": "Zapisuj si obchody a deník ti ukáže tvoje reálné vzorce: ve které dny a hodiny máš nejvyšší úspěšnost, jak držíš stop-loss disciplínu a kde ztrácíš. Data místo pocitů.",
+      "tabHistory": "Historie obchodů",
+      "tabAnalytics": "Pokročilá analytika",
+      "statWinRate": "Úspěšnost (win rate)",
+      "statWinRateSub": "0 z 3 obchodů",
+      "statProfit": "Celkový zisk",
+      "statProfitSub": "ze všech uzavřených",
+      "statRrr": "Průměrné RRR",
+      "statRrrSub": "doporučené min. 1.50",
+      "statCapital": "Chráněný kapitál",
+      "statCapitalSub": "100% stop-loss disciplína",
+      "calTitle": "Kalendář ziskovosti",
+      "calCaption": "Zelené dny = čistý zisk, červené = ztráta.",
+      "dayHeaders": ["PO", "ÚT", "ST", "ČT", "PÁ", "SO", "NE"],
+      "champBadge": "Absolutní šampion",
+      "champDay": "Středa",
+      "champSub": "85 % úspěšnost · celkový profit +$450.00",
+      "byDayTitle": "Úspěšnost dle dnů",
+      "byDayNames": ["Pondělí", "Úterý", "Středa", "Čtvrtek", "Pátek"],
+      "cta": "Začít vést deník"
+    },
+    "pillars": {
+      "eyebrow": "Jádro akademie",
+      "pill": "262 lekcí · česky",
+      "titleEm": "262 video lekcí",
+      "titlePost": " v šesti pilířích — v češtině, od nuly.",
+      "desc": "Žádný chaotický seznam videí. Jasná cesta rozdělená do pilířů, s označením „povinné\" u toho, co opravdu potřebuješ, a s úrovněmi od začátečníka výš.",
+      "lessonsLabel": "lekcí",
+      "items": [
+        { "name": "Risk management", "desc": "Základ všeho. Jak neprodělat dřív, než začneš vydělávat." },
+        { "name": "Forex", "desc": "Měnové páry, likvidita a největší trh světa." },
+        { "name": "Psychologie", "desc": "Ovládni strach a chamtivost dřív, než ovládnou ony tebe." },
+        { "name": "Komodity", "desc": "Zlato, ropa, uran — jak fungují a proč se hýbou." },
+        { "name": "Prop trading", "desc": "Obchoduj s cizím kapitálem a škáluj bez vlastního rizika." },
+        { "name": "Akcie", "desc": "Od „co je akcie\" po čtení fundamentů a indexů." }
+      ],
+      "foundationTitle": "+ 126 lekcí základů",
+      "foundationDesc": "Než se pustíš do pilířů — pochopíš, jak trhy vůbec fungují.",
+      "foundationCta": "Otevřít knihovnu →"
+    },
+    "live": {
+      "eyebrow": "Každé ráno",
+      "pill": "Ranní meetingy",
+      "titlePre": "Začni den ",
+      "titleEm": "připravený",
+      "titlePost": ", ne zaskočený.",
+      "desc": "Každé ráno procházíme, co se děje na trzích, na co si dát pozor a kde jsou příležitosti. Nestihl jsi ráno? Celý archiv máš kdykoliv k dispozici.",
+      "card1Label": "Denně ráno",
+      "card1Title": "Ranní meetingy",
+      "card1Desc": "Denní příprava na trh se zkušenými obchodníky. Konkrétní situace, žádná omáčka.",
+      "card1Foot": "Každý obchodní den ráno",
+      "card2Label": "Kdykoliv",
+      "card2Title": "Archiv seancí",
+      "card2Desc": "Zmeškané ráno není problém. Vrať se k jakékoliv seanci, projdi si vývoj situace a uč se ze skutečných rozhodnutí.",
+      "card2Foot": "Kompletní záznamy k dispozici"
+    },
+    "roadmap": {
+      "eyebrow": "Tvoje cesta",
+      "pill": "Roadmap",
+      "titlePre": "Jasná cesta od začátečníka ",
+      "titleEm": "k vlastnímu systému",
+      "titlePost": ".",
+      "desc": "Nemusíš hádat, čím začít. Roadmapa tě provede krok za krokem — vždy víš, kde jsi a co je další.",
+      "steps": [
+        { "title": "Základy trhů", "desc": "Pochopíš, jak trhy fungují a jak se v nich neztratit. Od nuly, česky." },
+        { "title": "Risk & psychologie", "desc": "Naučíš se chránit kapitál a ovládat emoce — dřív, než začneš riskovat." },
+        { "title": "Nástroje & analýza", "desc": "Stock Analyzer, kalkulačka rizika, deník. Rozhoduješ se podle dat, ne pocitů." },
+        { "title": "Živý trénink", "desc": "Arény a demo trading. Trénuješ rozhodování pod tlakem bez rizika reálných peněz." },
+        { "title": "Vlastní systém", "desc": "Z deníku vyčteš svoje silné dny a vzorce a poskládáš si vlastní obchodní systém." }
+      ]
+    },
+    "how": {
+      "eyebrow": "Jak to funguje",
+      "titlePre": "Od registrace k prvnímu ",
+      "titleEm": "rozhodnutí podle dat",
+      "titlePost": ".",
+      "steps": [
+        { "title": "Zaregistruj se", "desc": "Vytvoříš účet a hned máš přístup k akademii — v češtině, na počítači i mobilu." },
+        { "title": "Projdeš roadmapu", "desc": "Roadmapa a lekce tě vezmou od základů k pokročilým strategiím krok za krokem." },
+        { "title": "Trénuješ bez rizika", "desc": "V arénách a na demo obchodech si vše vyzkoušíš nanečisto, než nasadíš reálné peníze." },
+        { "title": "Rozhoduješ podle dat", "desc": "Stock Analyzer, Weekly Picks a deník používáš na reálná rozhodnutí a sleduješ výsledky." }
+      ]
+    },
+    "compare": {
+      "eyebrow": "Rozdíl",
+      "titlePre": "Samouk na vlastní pěst ",
+      "oldHeader": "Sám na vlastní pěst",
+      "newHeader": "S Finademica",
+      "rows": [
+        { "old": "Informace roztroušené po YouTube a Discordech", "neu": "Vše na jednom místě, v jasné struktuře" },
+        { "old": "Jen teorie a hezká videa", "neu": "Teorie + reálné nástroje a živý trénink" },
+        { "old": "Na všechno sám", "neu": "Ranní meetingy, komunita a AI podpora" },
+        { "old": "Emoce rozhodují za tebe", "neu": "Psychologická aréna trénuje disciplínu" },
+        { "old": "Hádáš, co děláš špatně", "neu": "Deník ti ukáže data o tvém obchodování" },
+        { "old": "Drahé analýzy akcií zvlášť", "neu": "Stock Analyzer a Weekly Picks v ceně" }
+      ]
+    },
+    "faq": {
+      "eyebrow": "Časté dotazy",
+      "title": "Než se rozhodneš",
+      "items": [
+        { "q": "Pro koho je akademie určená?", "a": "Pro úplné začátečníky i pokročilé. Začínáš od základů „co je akcie\" a postupuješ přes risk management, psychologii až po pokročilé strategie. Nemusíš umět nic dopředu." },
+        { "q": "Je všechno v češtině?", "a": "Ano. Lekce, nástroje i analýzy jsou v češtině. U každého odborného pojmu navíc najdeš vysvětlivku, takže se neztratíš." },
+        { "q": "Musím riskovat vlastní peníze?", "a": "Ne. Můžeš trénovat na demo obchodech a v arénách úplně bez rizika. Reálné peníze nasadíš, až se budeš cítit připravený." },
+        { "q": "Potřebuju velký kapitál?", "a": "Ne. Akademie tě naučí hlavně řídit riziko a rozhodovat se. Přes prop trading se navíc dá obchodovat i s cizím kapitálem." },
+        { "q": "Na jakých zařízeních to běží?", "a": "Kdekoliv v prohlížeči — na počítači, tabletu i mobilu. Nic neinstaluješ." },
+        { "q": "Kolik to stojí?", "a": "Cenu a balíčky doplníme zde. Platba proběhne bezpečně přes Stripe. Napiš si o aktuální nabídku přes tlačítko registrace." }
+      ]
+    },
+    "finalCta": {
+      "eyebrow": "The Architecture of Mastery",
+      "titleLine1": "Přestaň hádat.",
+      "titleLine2Pre": "Začni obchodovat ",
+      "titleEm": "se systémem",
+      "titleLine2Post": ".",
+      "desc": "262 lekcí, reálné nástroje, živý trénink a data o tvém obchodování — všechno na jednom místě, v češtině.",
+      "ctaPrimary": "Vytvořit účet",
+      "ctaSecondary": "Už mám účet",
+      "badge1": "Kompletně v češtině",
+      "badge2": "Počítač i mobil",
+      "badge3": "Trénink bez rizika"
+    },
+    "ctaBands": {
+      "defaultCta": "Vytvořit účet",
+      "band1Eyebrow": "Zakládající přístup",
+      "band1Title": "Tyhle nástroje čekají uvnitř — připravené hned po registraci.",
+      "band1Subtitle": "Stock Analyzer, Weekly Picks a celá akademie. Začni ještě dnes.",
+      "band1Cta": "Chci přístup",
+      "band2Title": "Přestaň skládat trading z útržků. Měj všechno na jednom místě.",
+      "band2Subtitle": "262 lekcí, nástroje, živý trénink a data o tvém obchodování — česky.",
+      "band2Cta": "Vytvořit účet"
+    },
+    "brandQuote": {
+      "eyebrow": "Základní kámen",
+      "quotePre": "„Když stavíš budovu, začínáš prvním kamenem, který drží celek pohromadě. ",
+      "quoteEm": "To je naše řemeslo.\""
     }
   }
 }
