@@ -24,9 +24,9 @@ export default function Home() {
     <main>
       <Hero />
 
-      <ProblemSection />
-
       <StockAnalyzerShowcase />
+
+      <ProblemSection />
 
       <WeeklyPicksShowcase />
 

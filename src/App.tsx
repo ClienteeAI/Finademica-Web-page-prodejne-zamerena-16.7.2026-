@@ -28,7 +28,7 @@ function AppContent() {
   });
 
   return (
-    <div className="relative selection:bg-accent selection:text-space-black">
+    <div className="relative overflow-x-hidden selection:bg-accent selection:text-space-black">
       <ScrollToTop />
       
       {/* Scroll Progress Bar */}

@@ -27,14 +27,14 @@ export default function PsychologyArena() {
        {/* Ambient Background Glow */}
        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-accent/5 blur-[120px] pointer-events-none" />
 
-       <div className="max-w-7xl mx-auto px-10 relative z-10">
-            <div className="flex flex-col lg:flex-row items-end justify-between mb-24 gap-12">
+       <div className="max-w-7xl mx-auto px-6 lg:px-10 relative z-10">
+            <div className="flex flex-col lg:flex-row items-start lg:items-end justify-between mb-16 lg:mb-24 gap-10 lg:gap-12">
                 <div className="max-w-3xl">
                     <div className="flex items-center gap-3 mb-8">
-                        <div className="w-2 h-2 rounded-full bg-accent shadow-[0_0_15px_#6366f1]" />
-                        <span className="text-accent font-sans text-[11px] uppercase tracking-[0.4em] font-bold">{t('arena.status')}</span>
+                        <div className="w-2 h-2 rounded-full bg-accent shadow-[0_0_15px_#6366f1] shrink-0" />
+                        <span className="text-accent font-sans text-[11px] uppercase tracking-[0.25em] sm:tracking-[0.4em] font-bold">{t('arena.status')}</span>
                     </div>
-                    <h2 className="text-5xl md:text-7xl lg:text-8xl font-serif font-light tracking-tighter mb-8 uppercase leading-[0.9]">
+                    <h2 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-serif font-light tracking-tight md:tracking-tighter mb-8 uppercase leading-[0.95] md:leading-[0.9] break-words">
                         <Trans i18nKey="arena.title">
                           The Psychology <span className="text-white/10 italic">Arena</span>
                         </Trans>
