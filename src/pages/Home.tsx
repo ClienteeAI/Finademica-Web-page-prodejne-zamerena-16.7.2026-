@@ -3,7 +3,9 @@ import Hero from '../components/Hero';
 import Features from '../components/Features';
 import PsychologyArena from '../components/PsychologyArena';
 import Pricing from '../components/Pricing';
-import SocialWall from '../components/SocialWall';
+// Dočasně skryto: Social Wall obsahuje ukázkové (nereálné) recenze.
+// Až budou k dispozici skutečné ohlasy, stačí odkomentovat tento import a <SocialWall /> níže.
+// import SocialWall from '../components/SocialWall';
 import StockAnalyzerShowcase from '../components/StockAnalyzerShowcase';
 import WeeklyPicksShowcase from '../components/WeeklyPicksShowcase';
 import BettingArena from '../components/BettingArena';
@@ -75,7 +77,7 @@ export default function Home() {
 
       <FAQ />
 
-      <SocialWall />
+      {/* Dočasně skryto do doby, než budou reálné recenze: <SocialWall /> */}
 
       <FinalCTA />
     </main>
