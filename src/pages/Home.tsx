@@ -1,7 +1,9 @@
 import { useTranslation } from 'react-i18next';
 import Hero from '../components/Hero';
 import Features from '../components/Features';
-import PsychologyArena from '../components/PsychologyArena';
+// Skryto na přání klienta: sekce Psychologická aréna.
+// Pro vrácení stačí odkomentovat tento import a <PsychologyArena /> níže.
+// import PsychologyArena from '../components/PsychologyArena';
 import Pricing from '../components/Pricing';
 // Dočasně skryto: Social Wall obsahuje ukázkové (nereálné) recenze.
 // Až budou k dispozici skutečné ohlasy, stačí odkomentovat tento import a <SocialWall /> níže.
@@ -55,7 +57,7 @@ export default function Home() {
 
       <BettingArena />
 
-      <PsychologyArena />
+      {/* Skryto na přání klienta: <PsychologyArena /> */}
 
       <TradingDiaryShowcase />
 

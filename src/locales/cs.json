@@ -146,7 +146,7 @@
       "cta": "Vstoupit k Elitě",
       "features": [
         "262 video lekcí v 6 pilířích (s českými titulky)",
-        "Plný přístup do Psychologické Arény",
+        "Plný přístup do XP Sázkové Arény",
         "Vlastní sada AI analytických nástrojů",
         "Přímé 1-na-1 konzultace s AI mentorem",
         "Integrace chytrého obchodního deníku",
@@ -474,7 +474,7 @@
         { "old": "Informace roztroušené po YouTube a Discordech", "neu": "Vše na jednom místě, v jasné struktuře" },
         { "old": "Jen teorie a hezká videa", "neu": "Teorie + reálné nástroje a živý trénink" },
         { "old": "Na všechno sám", "neu": "Ranní meetingy, komunita a AI podpora" },
-        { "old": "Emoce rozhodují za tebe", "neu": "Psychologická aréna trénuje disciplínu" },
+        { "old": "Emoce rozhodují za tebe", "neu": "Arény a demo trénink trénují disciplínu" },
         { "old": "Hádáš, co děláš špatně", "neu": "Deník ti ukáže data o tvém obchodování" },
         { "old": "Drahé analýzy akcií zvlášť", "neu": "Stock Analyzer a Weekly Picks v ceně" }
       ]
@@ -497,7 +497,7 @@
       "titleLine2Pre": "Začni obchodovat ",
       "titleEm": "se systémem",
       "titleLine2Post": ".",
-      "desc": "262 lekcí, reálné nástroje, živý trénink a data o tvém obchodování — všechno na jednom místě, v češtině.",
+      "desc": "262 lekcí, reálné nástroje, živý trénink a data o tvém obchodování — všechno na jednom místě, s českými titulky.",
       "ctaPrimary": "Vytvořit účet",
       "ctaSecondary": "Už mám účet",
       "badge1": "Kompletně v češtině",

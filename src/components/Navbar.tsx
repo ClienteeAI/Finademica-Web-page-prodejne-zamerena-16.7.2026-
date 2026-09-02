@@ -66,7 +66,7 @@ export default function Navbar() {
           <div className="hidden md:flex items-center space-x-6 text-[11px] font-sans uppercase tracking-[0.12em] text-text-dim">
             <NavLink href="#education">{t('nav.lessons')}</NavLink>
             <NavLink href="#tools">{t('nav.tools')}</NavLink>
-            <NavLink href="#arena">{t('nav.arena')}</NavLink>
+            <NavLink href="#betting-arena">{t('nav.arena')}</NavLink>
             
             <div className="relative group">
               <NavLink href="/blog">{t('nav.blog')}</NavLink>
@@ -163,7 +163,7 @@ export default function Navbar() {
             <div className="px-10 pt-8 pb-12 flex flex-col space-y-8 text-center uppercase text-[12px] tracking-[0.2em] text-white">
               <NavLink href="#education">{t('nav.lessons')}</NavLink>
               <NavLink href="#tools">{t('nav.tools')}</NavLink>
-              <NavLink href="#arena">{t('nav.arena')}</NavLink>
+              <NavLink href="#betting-arena">{t('nav.arena')}</NavLink>
               <NavLink href="/blog">{t('nav.blog')}</NavLink>
               <NavLink href="/dictionary">{t('nav.dictionary')}</NavLink>
               <NavLink href="/career">{t('career.nav')}</NavLink>
