@@ -104,6 +104,25 @@
     }
   },
   "pricing": {
+    "checkout": {
+      "title": "Objednávka – Kosmická elita",
+      "desc": "Vyplňte údaje a pokračujte k zabezpečené platbě. Přístup aktivujeme ihned po zaplacení.",
+      "firstName": "Jméno",
+      "lastName": "Příjmení",
+      "email": "E-mail",
+      "phone": "Telefon",
+      "placeholders": {
+        "firstName": "Jan",
+        "lastName": "Novák",
+        "email": "jan@email.cz",
+        "phone": "+420 777 123 456"
+      },
+      "consent": "Souhlasím se zpracováním osobních údajů a s obchodními podmínkami.",
+      "submit": "Pokračovat k platbě",
+      "loading": "Přesměrováváme na platební bránu…",
+      "secure": "Zabezpečená platba • Šifrované spojení",
+      "close": "Zavřít"
+    },
     "title": "Zvolte směr své cesty",
     "description": "Ať už stavíte své první základy, nebo míříte ke hvězdám mezi elitu, máme pro vás připravenou tu správnou trajektorii.",
     "foundation": {
@@ -121,7 +140,7 @@
     },
     "cosmic": {
       "label": "Kosmická elita",
-      "title": "€2,490",
+      "title": "49 890 Kč",
       "lifetime": "Navždy",
       "desc": "Kompletní výcvik psychologické války a profesionální nástroje bez omezení.",
       "cta": "Vzestoupit k elitě",

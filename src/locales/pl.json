@@ -104,6 +104,25 @@
     }
   },
   "pricing": {
+    "checkout": {
+      "title": "Zamówienie – Kosmiczna Elita",
+      "desc": "Wypełnij dane i przejdź do bezpiecznej płatności. Dostęp aktywujemy zaraz po opłaceniu.",
+      "firstName": "Imię",
+      "lastName": "Nazwisko",
+      "email": "E-mail",
+      "phone": "Telefon",
+      "placeholders": {
+        "firstName": "Jan",
+        "lastName": "Kowalski",
+        "email": "jan@email.pl",
+        "phone": "+48 600 123 456"
+      },
+      "consent": "Wyrażam zgodę na przetwarzanie danych osobowych i akceptuję regulamin.",
+      "submit": "Przejdź do płatności",
+      "loading": "Przekierowujemy do bramki płatności…",
+      "secure": "Bezpieczna płatność • Szyfrowane połączenie",
+      "close": "Zamknij"
+    },
     "title": "Wybierz swoją trajektorię",
     "description": "Niezależnie od tego, czy kładziesz pierwszy kamień milowy, czy sięgasz gwiazd wśród elity, mamy dla Ciebie przygotowaną ścieżkę.",
     "foundation": {
@@ -121,7 +140,7 @@
     },
     "cosmic": {
       "label": "Kosmiczna Elita",
-      "title": "€2,490",
+      "title": "49 890 Kč",
       "lifetime": "Na zawsze",
       "desc": "Kompletny trening wojny psychologicznej i profesjonalne narzędzia bez żadnych limitów.",
       "cta": "Dołącz do elity",

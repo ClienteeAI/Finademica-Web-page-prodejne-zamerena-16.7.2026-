@@ -104,6 +104,25 @@
     }
   },
   "pricing": {
+    "checkout": {
+      "title": "Order – Cosmos Elite",
+      "desc": "Fill in your details and continue to secure payment. Access is activated right after payment.",
+      "firstName": "First name",
+      "lastName": "Last name",
+      "email": "Email",
+      "phone": "Phone",
+      "placeholders": {
+        "firstName": "John",
+        "lastName": "Smith",
+        "email": "john@email.com",
+        "phone": "+420 777 123 456"
+      },
+      "consent": "I agree to the processing of my personal data and to the terms & conditions.",
+      "submit": "Continue to payment",
+      "loading": "Redirecting to the payment gateway…",
+      "secure": "Secure payment • Encrypted connection",
+      "close": "Close"
+    },
     "title": "Select Your Trajectory",
     "description": "Whether you're laying the first stone or reaching for the cosmos, we have the path ready.",
     "foundation": {
@@ -121,7 +140,7 @@
     },
     "cosmic": {
       "label": "Cosmos Elite",
-      "title": "€2,490",
+      "title": "49 890 Kč",
       "lifetime": "Lifetime",
       "desc": "Complete psychological warfare training & tools.",
       "cta": "Ascend to Elite",
