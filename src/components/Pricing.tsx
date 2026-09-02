@@ -1,5 +1,6 @@
 import { AnimatePresence, motion } from 'motion/react';
 import { useEffect, useState } from 'react';
+import { createPortal } from 'react-dom';
 import { useTranslation } from 'react-i18next';
 import { Loader2, Lock, X } from 'lucide-react';
 
@@ -103,7 +104,7 @@ export default function Pricing() {
                     className="flex-1 p-8 lg:p-16 flex flex-col relative overflow-hidden group bg-gradient-to-br from-accent/[0.05] to-blue-600/[0.05] z-10"
                 >
                     {/* Inner Glow */}
-                    <div className="absolute top-0 right-0 w-full h-full bg-gradient-to-br from-accent/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
+                    <div className="absolute top-0 right-0 w-full h-full bg-gradient-to-br from-accent/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none" />
 
                     <div className="mb-12 relative">
                         <span className="text-[10px] uppercase tracking-[4px] text-accent font-bold mb-4 block">{t('pricing.cosmic.label')}</span>
@@ -126,7 +127,7 @@ export default function Pricing() {
                     <button
                         type="button"
                         onClick={() => setCheckoutOpen(true)}
-                        className="block text-center w-full py-5 bg-gradient-to-r from-accent to-blue-600 text-white font-bold text-[11px] uppercase tracking-[0.3em] hover:scale-[1.02] transition-all shadow-2xl shadow-accent/20 rounded-sm"
+                        className="relative z-20 block text-center w-full py-5 bg-gradient-to-r from-accent to-blue-600 text-white font-bold text-[11px] uppercase tracking-[0.3em] hover:scale-[1.02] transition-all shadow-2xl shadow-accent/20 rounded-sm cursor-pointer"
                     >
                         {t('pricing.cosmic.cta')}
                     </button>
@@ -134,8 +135,9 @@ export default function Pricing() {
             </div>
        </div>
 
-       {/* Objednávkový formulář → platební brána */}
-       <AnimatePresence>
+       {/* Objednávkový formulář → platební brána (portál na body, aby ho nic nepřekrylo) */}
+       {createPortal(
+         <AnimatePresence>
          {checkoutOpen && (
            <motion.div
              initial={{ opacity: 0 }}
@@ -216,7 +218,9 @@ export default function Pricing() {
              </motion.div>
            </motion.div>
          )}
-       </AnimatePresence>
+         </AnimatePresence>,
+         document.body
+       )}
     </section>
   );
 }
