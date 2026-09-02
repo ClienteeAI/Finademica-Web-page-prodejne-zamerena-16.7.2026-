@@ -100,7 +100,7 @@ export default function Hero() {
               <span><strong className="text-white/80 font-mono not-italic">262</strong> lekcí</span>
               <span><strong className="text-white/80 font-mono not-italic">6</strong> pilířů</span>
               <span>Živě každý den</span>
-              <span>Kompletně česky</span>
+              <span>S českými titulky</span>
             </div>
           </motion.div>
 

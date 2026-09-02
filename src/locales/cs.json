@@ -145,7 +145,7 @@
       "desc": "Kompletní výcvik psychologické války a profesionální nástroje bez omezení.",
       "cta": "Vstoupit k Elitě",
       "features": [
-        "262 video lekcí v 6 pilířích (česky)",
+        "262 video lekcí v 6 pilířích (s českými titulky)",
         "Plný přístup do Psychologické Arény",
         "Vlastní sada AI analytických nástrojů",
         "Přímé 1-na-1 konzultace s AI mentorem",
@@ -405,9 +405,9 @@
     },
     "pillars": {
       "eyebrow": "Jádro akademie",
-      "pill": "262 lekcí · česky",
+      "pill": "262 lekcí · s českými titulky",
       "titleEm": "262 video lekcí",
-      "titlePost": " v šesti pilířích — v češtině, od nuly.",
+      "titlePost": " v šesti pilířích — s českými titulky, od nuly.",
       "desc": "Žádný chaotický seznam videí. Jasná cesta rozdělená do pilířů, s označením „povinné\" u toho, co opravdu potřebuješ, a s úrovněmi od začátečníka výš.",
       "lessonsLabel": "lekcí",
       "items": [
@@ -446,7 +446,7 @@
       "titlePost": ".",
       "desc": "Nemusíš hádat, čím začít. Roadmapa tě provede krok za krokem — vždy víš, kde jsi a co je další.",
       "steps": [
-        { "title": "Základy trhů", "desc": "Pochopíš, jak trhy fungují a jak se v nich neztratit. Od nuly, česky." },
+        { "title": "Základy trhů", "desc": "Pochopíš, jak trhy fungují a jak se v nich neztratit. Od nuly, s českými titulky." },
         { "title": "Risk & psychologie", "desc": "Naučíš se chránit kapitál a ovládat emoce — dřív, než začneš riskovat." },
         { "title": "Nástroje & analýza", "desc": "Stock Analyzer, kalkulačka rizika, deník. Rozhoduješ se podle dat, ne pocitů." },
         { "title": "Živý trénink", "desc": "Arény a demo trading. Trénuješ rozhodování pod tlakem bez rizika reálných peněz." },
@@ -511,7 +511,7 @@
       "band1Subtitle": "Stock Analyzer, Weekly Picks a celá akademie. Začni ještě dnes.",
       "band1Cta": "Chci přístup",
       "band2Title": "Přestaň skládat trading z útržků. Měj všechno na jednom místě.",
-      "band2Subtitle": "262 lekcí, nástroje, živý trénink a data o tvém obchodování — česky.",
+      "band2Subtitle": "262 lekcí, nástroje, živý trénink a data o tvém obchodování — s českými titulky.",
       "band2Cta": "Vytvořit účet"
     },
     "brandQuote": {
